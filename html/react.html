@@ -11,6 +11,21 @@
 
 <body> 
 <div id="my-component"> 
+<script>
+React.render(
+	React.createElement(
+		'div', 
+		{}, 
+		"Hello from React!"
+		),
+	document.getElementById('my-component')
+);
+React.render(
+	React.createElement(ClickCounter, {}, ""), 
+	document.getElementById('my-component')
+	); 
+
+</script>
 </div>
 
 
